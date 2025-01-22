@@ -2,6 +2,8 @@
 
 游戏示例为黑神话悟空
 
+注：本README文件由AI生成，仅供对软件的了解和参考。
+
 本项目基于 Python 与 `tkinter` 实现了一个图形化应用，可实时连接到 Bilibili 直播间抓取弹幕，并按照预设规则将弹幕内容转换为本地键盘或鼠标指令。可应用于“观众控制游戏”、“远程协作演示”等互动场景。
 
 ---
@@ -45,7 +47,7 @@
 2. **运行程序**  
    - 命令行进入项目目录，执行：  
      ```bash
-     python controller.py
+     pyinstaller --onefile --noconsole --add-data "guide.md;." --icon "icon.ico" main.py
      ```
    - 若打包成可执行文件，直接双击运行即可。
 
