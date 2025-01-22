@@ -68,9 +68,9 @@ danmu.py
 # 弹幕抓取实现（WebSocket/HTTP）
 logHandler.py 
 # 日志处理模块 
-guide.md 
+logs_error.txt之类的名字
 # 弹幕指令说明文件（操作指南） 
-requirements.txt 
+guide.md 
 # 所需依赖包列表
 controller.py 
 - `controller.py`：**核心入口**，启动 GUI、配置日志、管理弹幕监听线程。  
