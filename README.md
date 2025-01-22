@@ -61,16 +61,17 @@
 ---
 
 ## 文件结构简述
+# 程序整合入口
 main
-#程序整合入口
-controller.py 
 # 逻辑控制,修改这个即可改变游戏
-danmu.py 
+controller.py 
 # 弹幕抓取实现（WebSocket/HTTP）
-logHandler.py 
+danmu.py 
 # 日志处理模块 
-guide.md
+logHandler.py 
 # 弹幕指令说明文件（操作指南） 
+guide.md
+
 
 
 
