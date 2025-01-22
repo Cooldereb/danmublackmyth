@@ -61,16 +61,19 @@
 ---
 
 ## 文件结构简述
-
+main
+#程序整合入口
 controller.py 
-# 主界面及逻辑控制入口 
+# 逻辑控制,修改这个即可改变游戏
 danmu.py 
 # 弹幕抓取实现（WebSocket/HTTP）
 logHandler.py 
 # 日志处理模块 
-logs_error.txt之类的名字
+guide.md
 # 弹幕指令说明文件（操作指南） 
-guide.md 
+
+
+
 # 所需依赖包列表
 controller.py 
 - `controller.py`：**核心入口**，启动 GUI、配置日志、管理弹幕监听线程。  
